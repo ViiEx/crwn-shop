@@ -7,7 +7,7 @@ import ShopPage from './pages/shop/shop.component'
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 import Header from './components/header/header.component'
 import {auth, createUserProfileDocument} from './firebase/firebase.utils'
-import {setCurrentser} from './redux/user/user.actions'
+import {setCurrentUser} from './redux/user/user.actions'
 
 import './App.css'
 
@@ -57,7 +57,7 @@ const mapStateToProps = ({user}) => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-    setCurrentUser: user => dispatch(setCurrentser(user))
+    setCurrentUser: user => dispatch(setCurrentUser(user))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
