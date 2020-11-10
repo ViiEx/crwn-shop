@@ -15,7 +15,7 @@ const ShopPage = ({ collections }) => (
 );
 
 const mapStateToProps = createStructuredSelector({
-	collection: selectCollections,
+	collections: selectCollections,
 });
 
 export default connect(mapStateToProps)(ShopPage);
