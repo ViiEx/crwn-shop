@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Dependencies
 
-This project uses node 14
+This project uses `node 14`
 
 ## Available Scripts
 
