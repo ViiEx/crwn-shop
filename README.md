@@ -6,6 +6,33 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project uses `node 14`
 
+## Runnig this project localy
+
+First you need to clone the project:
+```
+git clone https://github.com/ViiEx/crwn-shop.git
+```
+
+Go in the new folder you just cloned:
+
+```
+cd crwn-shop
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Finaly execute node script
+
+```
+npm run start
+```
+
+Check Available scripts section for more script commands.
+
 ## Available Scripts
 
 In the project directory, you can run:
